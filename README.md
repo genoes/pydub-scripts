@@ -24,10 +24,10 @@ This setup is all you need to segment WAVE files.
 ------------
 ## Segment other audio file formats
 You can modify the script to use with other audio formats.
-* Use an editor to replace `wav` in the script with another file format such as `mp3`, `flac`, `ogg`, etc .
+* Use an editor to replace `wav` in the script with another audio format such as `mp3`, `flac`, `ogg`, etc .
 
 ### Installation
-This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux")**
+This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux"){:target="_blank"}**
 * Open Terminal
 * Install Homebrew 
 	* **`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`**
