@@ -39,6 +39,6 @@ This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing packag
 * Open Terminal
 * Run script
 	*  **`python audio-segment.py`**
-* A subdirectory **(`./output`)** will automatically be created.
+* An output subdirectory **(`./output`)** will automatically be created.
 * You will then be prompted to **`Enter the path to the source file`**.
-* The script will then populate the output directory with the segments.
+* The script will then populate the output subdirectory with the segmented files.
