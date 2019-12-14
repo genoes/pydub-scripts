@@ -1,6 +1,6 @@
-#Segment audio files
+# Segment audio files
 
-##Description
+## Description
 
 This script uses [Pydub](https://github.com/jiaaro/pydub/ "jiaaro - Pydub | Github") to splice a WAVE (.wav) file into multiple segments.
 
@@ -11,7 +11,7 @@ Pydub uses **`make_chunks`**, which allows you to specify segment lengths in mil
 ------------
 
 
-##Installation
+## Installation
 Open Terminal
 * Install ffmpeg
 	* **`pip install ffmpeg`**
@@ -22,11 +22,11 @@ This setup is all you need to segment WAVE files.
 
 
 ------------
-##Segment other audio file formats
+## Segment other audio file formats
 You can modify the script to use with other audio formats.
 * Use an editor to replace `wav` in the script with another file format such as `mp3`, `flac`, `ogg`, etc .
 
-###Installation
+### Installation
 This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux")**
 * Open Terminal
 * Install Homebrew 
@@ -35,7 +35,7 @@ This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing packag
  	* **`brew install ffmpeg`**
 
 ------------
-##Run
+## Run
 * Open Terminal
 * Run script
 	*  **`python audio-segment.py`**
