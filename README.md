@@ -27,7 +27,7 @@ You can modify the script to use with other audio formats.
 * Use an editor to replace `wav` in the script with another audio format such as `mp3`, `flac`, `ogg`, etc .
 
 ### Installation
-This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux"){:target="_blank"}**
+This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux")**
 * Open Terminal
 * Install Homebrew 
 	* **`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`**
