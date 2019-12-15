@@ -2,7 +2,7 @@
 
 ## Description
 
-This script uses [Pydub](https://github.com/jiaaro/pydub/ "jiaaro - Pydub | Github") to splice a WAVE (.wav) file into multiple segments.
+This script uses [pydub](https://github.com/jiaaro/pydub/ "jiaaro - pydub | Github") to splice a WAVE (.wav) file into multiple segments.
 
 Pydub uses **`make_chunks`**, which allows you to specify segment lengths in milliseconds (ms).
 * e.g., **`chunk_length_ms = 10000`** will segment an audio file into 10 second intervals. 
