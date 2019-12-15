@@ -8,7 +8,6 @@ Pydub uses **`make_chunks`**, which allows you to specify segment lengths in mil
 * e.g., **`chunk_length_ms = 10000`** will segment an audio file into 10 second intervals. 
 * Note that the duration of the final audio segment will often be less than the specified length.
 
-------------
 
 
 ## Installation
@@ -21,7 +20,6 @@ Pydub uses **`make_chunks`**, which allows you to specify segment lengths in mil
 This setup is all you need to segment WAVE files.
 
 
-------------
 ## Run
 * Run script
 	*  **`python audio-segment.py`**
@@ -30,7 +28,6 @@ This setup is all you need to segment WAVE files.
 * The script will then populate the output subdirectory with the segmented WAVE files.
 
 
-------------
 ## Segment other audio file formats
 You can modify the script to use with other audio formats. 
 
