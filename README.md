@@ -2,7 +2,7 @@
 
 ## Description
 
-This script uses [pydub](https://github.com/jiaaro/pydub/ "jiaaro - pydub | Github") to splice a WAVE (.wav) file into multiple segments.
+This script uses [pydub](https://github.com/jiaaro/pydub/ "jiaaro - Pydub | Github") to splice a WAVE (.wav) file into multiple segments.
 
 Pydub uses **`make_chunks`**, which allows you to specify segment lengths in milliseconds (ms).
 * e.g., **`chunk_length_ms = 10000`** will segment an audio file into 10 second intervals. 
@@ -12,7 +12,7 @@ Pydub uses **`make_chunks`**, which allows you to specify segment lengths in mil
 
 
 ## Installation
-Open Terminal
+* Open Terminal
 * Install ffmpeg
 	* **`pip install ffmpeg`**
 * Install pydub:
@@ -22,9 +22,19 @@ This setup is all you need to segment WAVE files.
 
 
 ------------
+## Run
+* Run script
+	*  **`python audio-segment.py`**
+* An output subdirectory **(`./output`)** will be created automatically.
+* You will then be prompted to enter the source path to the audio file.
+* The script will then populate the output subdirectory with the segmented WAVE files.
+
+
+------------
 ## Segment other audio file formats
-You can modify the script to use with other audio formats.
-* Use an editor to replace `wav` in the script with another audio format such as `mp3`, `flac`, `ogg`, etc .
+You can modify the script to use with other audio formats. 
+
+Just simply replace `wav` in the script with another audio format such as `mp3`, `flac`, `ogg`, etc .
 
 ### Installation
 This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux")**
@@ -32,13 +42,4 @@ This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing packag
 * Install Homebrew 
 	* **`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`**
 * Install ffmpeg:
- 	* **`brew install ffmpeg`**
-
-------------
-## Run
-* Open Terminal
-* Run script
-	*  **`python audio-segment.py`**
-* An output subdirectory **(`./output`)** will automatically be created.
-* You will then be prompted to **`Enter the path to the source file`**.
-* The script will then populate the output subdirectory with the segmented files.
+ 	* **`brew install ffmpeg`** 
