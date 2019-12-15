@@ -11,6 +11,7 @@ Pydub uses **`make_chunks`**, which allows you to specify segment lengths in mil
 
 
 ## Installation
+* Python 3.x
 * Open Terminal
 * Install ffmpeg
 	* **`pip install ffmpeg`**
