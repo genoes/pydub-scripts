@@ -32,7 +32,7 @@ This setup is all you need to segment WAVE files.
 ## Segment other audio file formats
 You can modify the script to use with other audio formats. 
 
-Just simply replace `wav` in the script with another audio format such as `mp3`, `flac`, `ogg`, etc .
+Simply replace `wav` in the script with another audio format such as `mp3`, `flac`, `ogg`, etc .
 
 ### Installation
 This setup requires **[Homebrew](https://brew.sh/ "Homebrew - The missing package manager for macOS or Linux")**
