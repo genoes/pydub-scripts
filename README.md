@@ -15,7 +15,6 @@
 ### Description
 
 This script uses pydub to splice an audio file into multiple segments based on the number of milliseconds specified.
-* e.g., `chunk_length_ms = 10000` will segment an audio file into 10 second intervals.
 
 
 # split-silence
