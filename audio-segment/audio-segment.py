@@ -18,7 +18,7 @@ chunks = make_chunks(myaudio, chunk_length_ms)
 
 # set export paramaters
 for i, chunk in enumerate(chunks):
-    chunk_name = './output/chunk_{:02d}.wav'.format(i)
+    chunk_name = './output/chunk_{:03d}.wav'.format(i)
     print('exporting', chunk_name)
     chunk.export(chunk_name, format='wav')
 print('\n'"done.")

@@ -46,9 +46,9 @@ for i, chunk in enumerate(chunks):
 
     # Export the audio chunk with new bitrate.
     # change the file extension if another format is desired for export
-    print("Exporting chunk_{:02}.wav.".format(i))
+    print("Exporting chunk_{:03d}.wav.".format(i))
     normalized_chunk.export(
-        "./output/chunk_{:02}.wav".format(i),
+        "./output/chunk_{:03d}.wav".format(i),
         bitrate = "192k",
         format = "wav"
     )
