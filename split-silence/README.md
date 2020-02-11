@@ -25,7 +25,7 @@ Specify the file format you want for your segments by modifying the export param
 
 
 ## Run
-* Run script: `split-silence.py`
+* Run script: `python split-silence.py`
 
 * An output subdirectory (`/output`) will be created automatically.
 
@@ -40,4 +40,4 @@ Specify the file format you want for your segments by modifying the export param
 #### No output
 If you are getting and output with little or no audio, it may be that the source file is quieter than your specified silence threshold.
 
-Increase the `silence_thresh` value so that the script can correctly recognize the audio.
+Increase the `silence_thresh` value so that the script can adequately recognize the audio.
