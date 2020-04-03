@@ -10,15 +10,15 @@ except FileExistsError:
 
 
 # set constants
-source_path = input('\n'"Enter path to source file: ")
+source_path = input('\n'"Enter absolute path to source file: ")
 myaudio = AudioSegment.from_file(source_path)
 chunk_length_ms = 10000 # set desired clip duration in milliseconds (ms)
 chunks = make_chunks(myaudio, chunk_length_ms)
 
 
 # set export paramaters
-for i, chunk in enumerate(chunks):
-    chunk_name = './output/chunk_{:03d}.wav'.format(i)
+for i, chunk in enumerate(chunks, start = 1):
+    chunk_name = './output/part_{:03d}.mp3'.format(i)
     print('exporting', chunk_name)
-    chunk.export(chunk_name, format='wav')
+    chunk.export(chunk_name, format='mp3')
 print('\n'"done.")

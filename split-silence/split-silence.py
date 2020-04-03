@@ -17,7 +17,7 @@ def match_target_amplitude(aChunk, target_dBFS):
     return aChunk.apply_gain(change_in_dBFS)
 
 # Load your audio.
-source_path = input('\n'"Enter path to source file: ")
+source_path = input('\n'"Enter absolute path to source file: ")
 audio = AudioSegment.from_file(source_path)
 
 
@@ -34,7 +34,7 @@ chunks = split_on_silence (
 )
 
 # Process each chunk with your parameters
-for i, chunk in enumerate(chunks):
+for i, chunk in enumerate(chunks, start = 1):
     # Create a silence chunk that's 0.5 seconds (or 500 ms) long for padding.
     silence_chunk = AudioSegment.silent(duration=500)
 
