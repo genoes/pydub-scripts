@@ -17,7 +17,7 @@ def match_target_amplitude(aChunk, target_dBFS):
     return aChunk.apply_gain(change_in_dBFS)
 
 # Load your audio.
-source_path = input('\n'"Enter absolute path to source file: ")
+source_path = input('\n'"Enter absolute path to source file: ").strip(" ")
 audio = AudioSegment.from_file(source_path)
 
 
