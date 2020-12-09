@@ -3,7 +3,7 @@
 
 * Open Terminal
 
-* Install [Homebrew](https://brew.sh/ "Homebrew"): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Install [Homebrew](https://brew.sh/ "Homebrew")
 
 * Install [pydub](https://github.com/jiaaro/pydub/ "jiaaro - pydub | Github"): `pip install pydub`
 
