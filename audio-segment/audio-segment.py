@@ -3,7 +3,7 @@ from pydub import AudioSegment
 from pydub.utils import make_chunks
 import os
 try:
-    os.makedirs('./output')
+    os.makedirs('./ihc_udelaire_DATE')
 except FileExistsError:
     # directory already exists
     pass
