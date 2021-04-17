@@ -22,19 +22,5 @@ for i, chunk in enumerate(chunks, start = 1):
     print('exporting', os.path.basename(chunk_name))
     chunk.export(chunk_name, format='mp3')
 
-print('\n'
-'''
-     ;
-     ;;
-     ;';.
-     ;  ;;
-     ;   ;;
-     ;    ;;
-     ;    ;;
-     ;   ;'
-     ;  '
-,;;;,;
-;;;;;;
-`;;;;'    Finished!
+print('\n'"done!")
 
-''''\n')
