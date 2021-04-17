@@ -1,9 +1,11 @@
-# import modules
 from pydub import AudioSegment
 from pydub.utils import make_chunks
 import os
+
+
+# creates output folder
 try:
-    os.makedirs('./ihc_udelaire_DATE')
+    os.makedirs('./ihc_udelaire_DATE') 
 except FileExistsError:
     # directory already exists
     pass
@@ -22,5 +24,5 @@ for i, chunk in enumerate(chunks, start = 1):
     print('exporting', os.path.basename(chunk_name))
     chunk.export(chunk_name, format='mp3')
 
-print('\n'"done!")
+print('\n'"done.")
 
