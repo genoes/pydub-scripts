@@ -12,7 +12,7 @@ except FileExistsError:
 
 
 # set constants
-source_path = input('\n'"Enter absolute path to source file: ").strip(" ")
+source_path = input('\n'"Enter absolute path to source file: ").strip()
 myaudio = AudioSegment.from_file(source_path)
 chunk_length_ms = 10000 # set desired clip duration in milliseconds (ms)
 chunks = make_chunks(myaudio, chunk_length_ms)
