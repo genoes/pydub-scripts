@@ -20,7 +20,7 @@ chunks = make_chunks(myaudio, chunk_length_ms)
 
 # set export paramaters
 for i, chunk in enumerate(chunks, start = 1):
-    chunk_name = './output/ihc_udelaire_DATE_{:03d}.mp3'.format(i)
+    chunk_name = './ihc_udelaire_DATE/ihc_udelaire_DATE_{:03d}.mp3'.format(i)
     print('exporting', os.path.basename(chunk_name))
     chunk.export(chunk_name, format='mp3')
 
